@@ -9,29 +9,42 @@ const login = (event) => {
 
 }
 
-const costumes = async () => {
-try{    const costume_data = await fetch("https://fakestoreapi.com/products")
-if (!response.ok) {
-    throw new Error(`Failed to fetch data. Status: ${response.status}`);
-}
-    const data = await costume_data.json()
-    console.log(data);
+fetch("https://fakestoreapi.com/products")
+.then((response) =>{
+    response.json().then((data) => {
+        const result = document.getElementById("result");
+        let cardcount = 0;
+        console.log(data);
+        data.forEach(item => {
+            
+            result.innerHTML += `          
+            <div class="col-lg-3">
+          <div class="card" style="width: 18rem;">
+              <img src="${item.image}" class="card-img-top" alt="...">
+              <div class="card-body">
+                  <h6> ${item.title}</h6>
+                  <h6>Price : ${item.price}</h6>
+                  <h6> Rating :${item.rating.rate}</h6>
+              </div>
+          </div>
+      </div>
+      `
+      cardcount++
+        })
+ 
+})
+}).catch((reason) => {
+    console.log(reason);
+});
 
-//     final.innerHTML += `          
-//       <div class="col-lg-4">
-//     <div class="card" style="width: 18rem;">
-//         <img src="${data[0].image}" class="card-img-top" alt="...">
-//         <div class="card-body">
-//             <h5 class="card-title">${data[0].title}</h5>
-//             <h5>${data[0].price}</h5>
-//             <h5>${data[0].rating}</h5>
-//         </div>
-//     </div>
-// </div>
-// `
-}
-catch(error){
-    console.error("Error fetching data")
 
-}
-}
+
+
+
+
+
+
+
+
+
+

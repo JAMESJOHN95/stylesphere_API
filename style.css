@@ -86,6 +86,30 @@ body {
 
 .main_content{
     padding: 25px;
-    width: 80%;
-    text-align: center;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card{
+    width: 200px;
+    height: 600px;
+    padding: 15px;
+    margin: 5px;
+    background-color: rgba(252, 210, 196, 0.5747549019607843);
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.2), 0 6px 20px 0 rgba(22, 15, 15, 0.19);
+
+
+}
+.img_home{
+    width: 200px;
+    height: 200px;
+}
+.row{
+    margin-bottom: 10px;
+    padding: 15px;
+}
+.img_div{
+    height: 250px;
 }
