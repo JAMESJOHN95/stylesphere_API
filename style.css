@@ -117,3 +117,18 @@ body {
     height: 250px;
     width: 250px;
 }
+.button_buy{
+    text-align: center;
+
+}
+.buybutton{
+    background-color: rgb(203, 143, 90);
+    color: white;
+    font-size: medium;
+    font-weight: 400;
+    border: none;
+    border-radius: 25px;
+    width: 100px;
+    height: 35px;
+    
+}

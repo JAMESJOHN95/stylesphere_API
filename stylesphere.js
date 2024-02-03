@@ -25,6 +25,8 @@ fetch("https://fakestoreapi.com/products")
                   <h6> ${item.title}</h6>
                   <h6>Price : ${item.price}</h6>
                   <h6> Rating :${item.rating.rate}</h6>
+                  <div class="button_buy"><button class="buybutton">Buy Now</button></div>
+
               </div>
           </div>
       </div>
