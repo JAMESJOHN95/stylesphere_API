@@ -61,3 +61,31 @@ body {
 .login_head{
     color:rgb(227, 170, 141) ;
 } 
+
+/* *******************************************************************Home Page *************************************************************/
+
+.navbar{
+    background: rgb(254, 227, 218);
+    background: radial-gradient(circle, rgba(254, 227, 218, 0.6783963585434174) 0%,
+     rgba(252, 210, 196, 0.5747549019607843) 20%,
+     rgba(251, 194, 175, 0.499124649859944) 40%, rgba(249, 177, 152, 0.5019257703081232) 60%,
+      rgba(248, 159, 129, 0.499124649859944) 80%, rgba(246, 143, 110, 0.3254551820728291) 100%);
+
+
+}
+.carousel-item{
+    height:600PX;
+}
+.navbar-brand{
+    font-weight: 700;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* ****************************************card************************************************* */
+
+.main_content{
+    padding: 25px;
+    width: 80%;
+    text-align: center;
+}
