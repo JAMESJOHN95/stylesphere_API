@@ -18,7 +18,7 @@ fetch("https://fakestoreapi.com/products")
         data.forEach(item => {
             
             result.innerHTML += `          
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-4 col-sm-6">
           <div class="card" style="width: 18rem;">
               <img src="${item.image}" class="card-img-top" alt="...">
               <div class="card-body">

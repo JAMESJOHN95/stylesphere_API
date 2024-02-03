@@ -74,7 +74,7 @@ body {
 
 }
 .carousel-item{
-    height:600PX;
+    /* height:600PX; */
 }
 .navbar-brand{
     font-weight: 700;
@@ -93,7 +93,7 @@ body {
 
 .card{
     width: 200px;
-    height: 600px;
+    /* height: 600px; */
     padding: 15px;
     margin: 5px;
     background-color: rgba(252, 210, 196, 0.5747549019607843);
@@ -104,7 +104,7 @@ body {
 }
 .img_home{
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
 }
 .row{
     margin-bottom: 10px;
@@ -112,4 +112,8 @@ body {
 }
 .img_div{
     height: 250px;
+}
+.card-img-top{
+    height: 250px;
+    width: 250px;
 }
